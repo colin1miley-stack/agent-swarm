@@ -23,8 +23,8 @@
 - [ ] Note patterns for next week
 
 ## Content Pillars (Rotate Weekly)
-1. Founder Story â€” Why you started, lessons learned
-2. Industry Insight â€” Trends, data, contrarian views
-3. Community â€” Polls, questions, user stories
-4. Product â€” Behind-the-scenes, features, benefits
-5. Education â€” How wellness/tech works
+1. Founder Story — Why you started, lessons learned
+2. Industry Insight — Trends, data, contrarian views
+3. Community — Polls, questions, user stories
+4. Product — Behind-the-scenes, features, benefits
+5. Education — How wellness/tech works
