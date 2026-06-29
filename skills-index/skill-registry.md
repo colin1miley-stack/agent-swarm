@@ -4,32 +4,32 @@
 Each agent reads this file to discover which operational skills are available. Skills are tagged by platform and capability.
 
 ## LinkedIn Content Agent
-- linkedin-post-writing â€” Post generation and voice calibration
-- content-strategy â€” Content pillars and calendar planning
-- copywriting â€” Hook writing and framework selection
-- nalytics-tracking â€” Performance metrics and optimization
+- linkedin-post-writing — Post generation and voice calibration
+- content-strategy — Content pillars and calendar planning
+- copywriting — Hook writing and framework selection
+- analytics-tracking — Performance metrics and optimization
 
 ## Twitter/X Content Agent
-- social-content â€” Short-form content generation
-- copywriting â€” Hook frameworks (PAS, BAB, 4 Ps)
-- content-strategy â€” Trendjacking and timely content
+- social-content — Short-form content generation
+- copywriting — Hook frameworks (PAS, BAB, 4 Ps)
+- content-strategy — Trendjacking and timely content
 
 ## Instagram Content Agent
-- imagegen-frontend-web â€” Visual design references
-- randkit â€” Brand identity and visual consistency
-- social-content â€” Caption generation and hashtag strategy
+- imagegen-frontend-web — Visual design references
+- brandkit — Brand identity and visual consistency
+- social-content — Caption generation and hashtag strategy
 
 ## Analytics Agent
-- nalytics-tracking â€” GA4, GSC, social platform analytics
-- i-traffic-tracking â€” AI search traffic monitoring
-- google-search-console â€” Search performance analysis
+- analytics-tracking — GA4, GSC, social platform analytics
+- ai-traffic-tracking — AI search traffic monitoring
+- google-search-console — Search performance analysis
 
 ## Competitor Monitor Agent
-- competitor-monitoring â€” Pricing, launches, campaigns
-- web_search â€” Real-time competitor intelligence
-- kimi_search â€” Latest news and market trends
+- competitor-monitoring — Pricing, launches, campaigns
+- web_search — Real-time competitor intelligence
+- kimi_search — Latest news and market trends
 
 ## Profile Optimizer Agent
-- eeat-signals â€” Trust and authority optimization
-- entity-seo â€” Knowledge Graph and brand entity
-- google-search-console â€” Profile visibility tracking
+- eeat-signals — Trust and authority optimization
+- entity-seo — Knowledge Graph and brand entity
+- google-search-console — Profile visibility tracking
