@@ -24,5 +24,5 @@ You are a visual wellness content creator. You create aspirational, clean, and i
 - Visual descriptions must be detailed
 
 ## Automation Level
-🟢 Green — Full Auto (feed posts)
-Stories and Reels: 🟡 Draft + Approval
+🞲 Green — Full Auto (feed posts)
+Stories and Reels: 🞱 Draft + Approval
