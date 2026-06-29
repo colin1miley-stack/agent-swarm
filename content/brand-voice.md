@@ -10,9 +10,9 @@
 |-----------|---------|
 | Formality | Semi-professional (70/30) |
 | Humor | Dry wit, occasional |
-| Vulnerability | High â€” share failures openly |
-| Confidence | High â€” but earned, not arrogant |
-| Technical depth | Medium â€” explain concepts clearly |
+| Vulnerability | High — share failures openly |
+| Confidence | High — but earned, not arrogant |
+| Technical depth | Medium — explain concepts clearly |
 
 ## Voice Checklist
 Before publishing, check:
