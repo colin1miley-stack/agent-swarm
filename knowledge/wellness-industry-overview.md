@@ -1,17 +1,17 @@
 # Wellness Industry Overview
 
 ## Market Size
-- Global wellness market: .5 trillion (2023)
-- Personalized nutrition:  billion, growing 15% CAGR
-- UK supplement market: Â£500M+
-- Ireland supplement market: â‚¬50M+
+- Global wellness market: $4.5 trillion (2023)
+- Personalized nutrition: $11 billion, growing 15% CAGR
+- UK supplement market: £500M+
+- Ireland supplement market: €50M+
 
 ## Key Trends
-1. Personalization â€” one-size-fits-all is dying
-2. Transparency â€” consumers want to know what's in it
-3. Subscription models â€” recurring revenue is king
-4. AI-powered recommendations â€” data-driven wellness
-5. Powder/sachet formats â€” convenience over pills
+1. Personalization — one-size-fits-all is dying
+2. Transparency — consumers want to know what's in it
+3. Subscription models — recurring revenue is king
+4. AI-powered recommendations — data-driven wellness
+5. Powder/sachet formats — convenience over pills
 
 ## Common Pain Points
 - Overwhelming choice (too many supplements)
@@ -29,5 +29,5 @@
 ## Content Angles
 - "The supplement industry is broken. Here's why."
 - "Why powder beats pills (and the science behind it)"
-- "Personalization isn't a luxury anymore â€” it's a necessity"
+- "Personalization isn't a luxury anymore — it's a necessity"
 - "What most supplement brands don't want you to know"
