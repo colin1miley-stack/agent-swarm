@@ -1,8 +1,8 @@
 # Wellness Industry Overview
 
 ## Market Size
-- Global wellness market: $4.5 trillion (2023)
-- Personalized nutrition: $11 billion, growing 15% CAGR
+- Global wellness market: .5 trillion (2023)
+- Personalized nutrition:  billion, growing 15% CAGR
 - UK supplement market: £500M+
 - Ireland supplement market: €50M+
 
