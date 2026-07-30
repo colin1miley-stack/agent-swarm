@@ -37,7 +37,7 @@
 | `tone` | `sharp`, `consultative`, `storytelling`, `contrarian`, `practical` | Auto-detected from source content |
 | `audience` | `sales-leaders`, `founders`, `ai-curious`, `wellness-professionals`, `general` | `general` |
 | `colin_context` | What Colin is currently building or focused on | From `MEMORY.md` |
-| `promotional_intent` | `none`, `soft` (mention Vitae10 or AI Revenue Systems subtly), `direct` (clear CTA) | `soft` |
+| `promotional_intent` | `none`, `soft` (mention [Your Brand] or AI Revenue Systems subtly), `direct` (clear CTA) | `soft` |
 | `excluded_platforms` | Platforms to skip | `null` |
 | `content_length` | `short` (1-2 posts), `medium` (5-8 posts), `full` (10+ posts) | `full` |
 
@@ -132,7 +132,7 @@
   - Subject line: Curiosity-driven or benefit-driven
   - Opening: Personal hook or story
   - Body: Core insight expanded with examples, frameworks, and actionable advice
-  - Section: "What I'm building" (soft Vitae10 or AI Revenue Systems mention)
+  - Section: "What I'm building" (soft [Your Brand] or AI Revenue Systems mention)
   - CTA: Reply with thoughts, share with a friend, or check out a resource
 
   #### Blog Post (1 derivative post)
@@ -156,12 +156,12 @@
 
 - [ ] **3.2 Brand Safety Check**
   - If `promotional_intent` = `soft`:
-    - Vitae10 mentions should be natural (e.g., "What I'm building" section, not hard sell)
+    - [Your Brand] mentions should be natural (e.g., "What I'm building" section, not hard sell)
     - AI Revenue Systems should be framed as "what I do" not "hire me now"
   - If `promotional_intent` = `direct`:
     - Clear CTA: "Book a call", "Check out the product", "Join the newsletter"
   - Check for accidental claims (e.g., "guaranteed results" — remove unless substantiated)
-  - Check for compliance: No medical claims for Vitae10 unless reviewed by Compliance agent
+  - Check for compliance: No medical claims for [Your Brand] unless reviewed by Compliance agent
 
 - [ ] **3.3 Consistency Check**
   - Read all generated posts together. Do they tell the same story?
@@ -173,7 +173,7 @@
 - [ ] **4.1 Council Review**
   - Submit a sample of posts (1 per platform) to `kimi-council`
   - Council evaluates: Is this on-brand? Is the insight clear? Would this get engagement?
-  - For Vitae10-related content: Compliance agent must also review for health claims
+  - For [Your Brand]-related content: Compliance agent must also review for health claims
 
 - [ ] **4.2 Colin Approval**
   - Present the full content package in `#content-repurposing` with:
@@ -308,7 +308,7 @@
 - [ ] Brand Safety Check
 - [ ] Consistency Check
 - [ ] Council Review (sample)
-- [ ] Compliance Review (if Vitae10-related)
+- [ ] Compliance Review (if [Your Brand]-related)
 
 ## Colin Approval
 - [ ] Approve All
@@ -327,7 +327,7 @@
 | **Brand Safety Check** | Always | Promotional mentions are natural. No medical claims. No unsubstantiated guarantees. |
 | **Consistency Check** | Always | All posts tell the same story. No contradictions. No verbatim repetition across platforms. |
 | **Council Review** | Always (sample) | At least one post per platform reviewed by council. Must be on-brand and engaging. |
-| **Compliance Review** | If Vitae10-related | No health or medical claims without substantiation. Reviewed by Compliance agent. |
+| **Compliance Review** | If [Your Brand]-related | No health or medical claims without substantiation. Reviewed by Compliance agent. |
 | **Colin Approval** | Always | Colin approves each piece individually before scheduling. |
 | **Length Check** | Always | Platform-appropriate lengths. LinkedIn: 150-350 words. X: 280 chars per tweet. Instagram: minimal text per slide. |
 

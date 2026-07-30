@@ -28,7 +28,7 @@
 ### Required Fields
 | Field | Description | Source |
 |-------|-------------|--------|
-| `inbox_source` | Which email account(s) to check | `colin@vitae10.com` (primary), `colin1miley@gmail.com` (personal), etc. |
+| `inbox_source` | Which email account(s) to check | `colin@[Your Brand].com` (primary), `colin1miley@gmail.com` (personal), etc. |
 | `triage_mode` | `full` (all unread), `urgent-only` (flagged urgent), `summary` (just a digest) | Default: `full` |
 
 ### Optional Fields
@@ -37,7 +37,7 @@
 | `max_emails` | Max unread emails to process in one run | 50 (to avoid rate limits and token burn) |
 | `sender_whitelist` | Senders to always mark as important | Known suppliers, investors, key partners |
 | `sender_blacklist` | Senders to auto-archive (newsletters, marketing, etc.) | Known newsletter domains |
-| `colin_context` | What Colin is currently focused on (e.g., "launching Vitae10", "closing Q3 deals") | From `MEMORY.md` or Colin's input |
+| `colin_context` | What Colin is currently focused on (e.g., "launching [Your Brand]", "closing Q3 deals") | From `MEMORY.md` or Colin's input |
 | `reply_style` | `concise`, `detailed`, `defer` | `concise` |
 
 ---
@@ -46,7 +46,7 @@
 
 ### Phase 1: Ingestion & Scanning
 - [ ] **1.1 Connect to Email**
-  - Authenticate to configured email accounts (Microsoft 365 for `colin@vitae10.com`, Gmail API for personal)
+  - Authenticate to configured email accounts (Microsoft 365 for `colin@[Your Brand].com`, Gmail API for personal)
   - Pull unread emails, limited to `max_emails` per run
   - Sort by: received time (newest first), then by sender priority
 
@@ -69,14 +69,14 @@
 ### Phase 2: Priority Sorting
 - [ ] **2.1 Urgency Assessment**
   - For each email, assign a priority:
-    - **`URGENT`**: Requires action within 4 hours. Examples: supplier says "shipment delayed", Stripe chargeback, legal notice, meeting request for today, Vitae10 customer complaint.
+    - **`URGENT`**: Requires action within 4 hours. Examples: supplier says "shipment delayed", Stripe chargeback, legal notice, meeting request for today, [Your Brand] customer complaint.
     - **`IMPORTANT`**: Requires action within 24 hours. Examples: warm lead reply, partnership inquiry, invoice due, content deadline, agent council review request.
     - **`FYI`**: No action needed, just awareness. Examples: newsletter, platform update, completed task notification, social mention.
     - **`ARCHIVE`**: No value, auto-archive. Examples: cold sales email to Colin, marketing blast, phishing attempt.
 
 - [ ] **2.2 Contextual Boosting**
   - Cross-reference with `colin_context`:
-    - If Colin is "launching Vitae10", boost all supplier and logistics emails to `URGENT` or `IMPORTANT`
+    - If Colin is "launching [Your Brand]", boost all operations emails to `URGENT` or `IMPORTANT`
     - If Colin is "closing Q3 deals", boost all inbound inquiries and meeting requests to `URGENT` or `IMPORTANT`
   - Cross-reference with `MEMORY.md`:
     - If a supplier was recently flagged as "at risk", any email from them gets `URGENT`
@@ -142,7 +142,7 @@
 
 ```markdown
 # Inbox Triage Report — [Date] [Time] GMT
-**Account:** colin@vitae10.com  
+**Account:** colin@[Your Brand].com  
 **Emails Processed:** [N] unread  
 **Urgent:** [N] | **Important:** [N] | **FYI:** [N] | **Archive:** [N]  
 **Triage Time:** [X minutes]

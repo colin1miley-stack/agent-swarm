@@ -287,7 +287,7 @@ Every workflow has mandatory quality gates. Here's the full matrix:
 | **Length Check** | — | ✅ (200-400w / 2-3pp) | ✅ (platform limits) | — | — | ✅ (platform limits) | ✅ (<1,200w) |
 | **Data Accuracy** | ✅ (source URLs) | ✅ (pricing correct) | ✅ (details from brief) | ✅ (no hallucinations) | ✅ (thread context) | — | ✅ (all metrics verified) |
 | **Brand Safety** | — | — | — | — | — | ✅ (no med claims) | — |
-| **Compliance Review** | — | — | — | — | — | ✅ (if Vitae10) | — |
+| **Compliance Review** | — | — | — | — | — | ✅ (if [Your Brand]) | — |
 
 **Legend:** ✅ = Always required, ✅ (condition) = Required under specific conditions, — = Not applicable
 

@@ -27,7 +27,7 @@
 |-------|-------------|---------|
 | `lead_identifier` | Company URL, LinkedIn company page, or person's name + company | `acme-corp.com` or `Jane Doe @ Acme Corp` |
 | `source` | Where this lead came from | `linkedin-outbound`, `inbound-inquiry`, `event`, `manual` |
-| `colin_context` | What service Colin would pitch them | `ai-automation-consulting`, `vitae10-b2b`, `content-system` |
+| `colin_context` | What service Colin would pitch them | `ai-automation-consulting`, `[Your Brand]-b2b`, `content-system` |
 
 ### Optional Fields
 | Field | Description | Default |

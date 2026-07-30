@@ -96,7 +96,7 @@ Every test gets an entry in `agent-swarm/learning/experiments/YYYY-MM/TEST-ID.md
 Personalizing subject line with company name will increase open rate by 10%.
 
 ## Variants
-- **A (Control):** "Partnership opportunity with Vitae10"
+- **A (Control):** "Partnership opportunity with [Your Brand]"
 - **B (Test):** "Quick question about [Company Name]"
 
 ## Results

@@ -165,7 +165,7 @@
 # Weekly Report — [Week of Date] to [Date]
 **Generated:** Monday, [Date] at 08:00 GMT  
 **Report Type:** Standard Monday Brief  
-**Colin's Current Focus:** [From MEMORY.md — e.g., "Launching Vitae10 concierge phase"]
+**Colin's Current Focus:** [From MEMORY.md — e.g., "launching [Your Brand] concierge phase"]
 
 ---
 

@@ -26,7 +26,7 @@
 | Field | Description | Source |
 |-------|-------------|--------|
 | `brief_id` | Airtable record ID of the completed Lead Researcher brief | Lead Researcher output |
-| `service_type` | Which service Colin is pitching | Colin's input (e.g., `ai-revenue-systems`, `vitae10-b2b`, `automation-audit`) |
+| `service_type` | Which service Colin is pitching | Colin's input (e.g., `ai-revenue-systems`, `[Your Brand]-b2b`, `automation-audit`) |
 | `pricing_tier` | Selected from Colin's standard tiers | Colin's input or auto-suggested from brief |
 
 ### Standard Pricing Tiers (Colin's Context)
@@ -35,7 +35,7 @@
 | **Audit** | £500 | One-week deep dive into their current sales/marketing stack. Deliverable: findings + prioritized roadmap. | First engagement, low trust, proof of value |
 | **System Build** | £2,500-5,000 | End-to-end implementation of one revenue system (e.g., AI outreach, content pipeline, lead scoring). | They have budget, clear problem, and trust |
 | **Retainer** | £1,500-3,000/mo | Ongoing optimization, new system builds, and strategic advisory. | They want a partner, not a one-off |
-| **Vitae10 B2B** | Custom | Corporate wellness program for their team. | Health-focused companies, HR benefits, team wellness |
+| **[Your Brand] B2B** | Custom | Corporate wellness program for their team. | Health-focused companies, HR benefits, team wellness |
 
 ### Optional Fields
 | Field | Description | Default |

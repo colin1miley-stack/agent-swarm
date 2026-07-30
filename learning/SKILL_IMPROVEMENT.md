@@ -145,14 +145,14 @@ Colin reads the report and marks each recommendation:
 ```markdown
 ### Subject Line Examples
 - "Partnership opportunity with {{company_name}}"
-- "Introducing Vitae10 — personalised supplements"
+- "Introducing [Your Brand] — [your product/service]"
 ```
 
 **Proposed update:**
 ```markdown
 ### Subject Line Examples
 - "Quick question about {{company_name}}" ← **WINNER: 78% win rate, 52% open rate**
-- "Introducing Vitae10 — personalised supplements"
+- "Introducing [Your Brand] — [your product/service]"
 
 ### Avoid
 - "Partnership opportunity" ← **LOSER: 12% win rate, 28% open rate, 0% reply rate**
@@ -189,7 +189,7 @@ Colin reads the report and marks each recommendation:
 ```markdown
 ## Voice
 - Professional but approachable
-- Use "we" when referring to Vitae10
+- Use "we" when referring to [Your Brand]
 - Avoid slang and overly casual language
 ```
 

@@ -45,7 +45,7 @@
 - [ ] **1.1 Identify Open Threads**
   - Scan all tracked communication threads across:
     - Airtable "Sales Pipeline" (proposals sent, meetings held, negotiations)
-    - Airtable "Partnerships" (supplier discussions, co-marketing, integrations)
+    - Airtable "Partnerships" (operations discussions, co-marketing, integrations)
     - Email threads where Colin was the last sender and no reply received
     - LinkedIn DM threads where Colin sent the last message and no reply
     - Outreach sequences that completed with no reply
@@ -70,7 +70,7 @@
     - **Recency** (0-25): More recent = lower score (less urgent). 3 days = 5, 7 days = 15, 14 days = 25
     - **Stage** (0-20): Later stage = higher score. `negotiation` = 20, `meeting_held` = 15, `proposal_sent` = 12, `cold_outreach` = 5
     - **Warmth** (0-15): Has replied before = 15, engaged on LinkedIn = 10, cold = 5
-    - **Context** (0-10): Matches `colin_context` (e.g., if Colin is focusing on Vitae10 launch, supplier threads get +10)
+    - **Context** (0-10): Matches `colin_context` (e.g., if Colin is focusing on [Your Brand] launch, supplier threads get +10)
 
 - [ ] **2.2 Priority Buckets**
   - **Priority A (Score 70-100):** Chase today. These are high-value, late-stage, stalled threads. Colin must see these.
@@ -79,7 +79,7 @@
   - **Priority D (Score < 20):** Let it go. Either too cold, too low-value, or too recent. Mark for review in 30 days.
 
 - [ ] **2.3 Contextual Adjustments**
-  - If a thread is a supplier discussion and Colin's context is "Vitae10 launch", boost by 10 points
+  - If a thread is a operations discussion and Colin's context is "[Your Brand] launch", boost by 10 points
   - If a thread is a partnership inquiry and Colin's context is "content growth", boost by 10 points
   - If a thread has been followed up 3+ times already, cap score at 50 (don't chase forever)
   - If a thread is marked "lost" in Airtable, exclude from scoring (unless Colin manually overrides)
